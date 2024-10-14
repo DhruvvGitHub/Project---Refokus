@@ -1,9 +1,9 @@
 import { FaAngleRight } from "react-icons/fa";
 
-const Button = () => {
+const Button = ({title = "Get Started"}) => {
   return (
-    <div className="px-5 py-2 text-black rounded-full bg-zinc-100 flex items-center gap-3">
-        <span className="text-sm font-medium">Get Started</span>
+    <div className="w-40 py-3 text-black rounded-full bg-zinc-100 flex items-center justify-center gap-3">
+        <span className="text-sm font-medium">{title}</span>
         <FaAngleRight />
     </div>
   )
