@@ -2,7 +2,7 @@ import Button from "./Button"
 
 const Product = ({data}) => {
   return (
-    <div className='wrapper w-full h-64 border-b-2 px-5 text-white flex items-center'>
+    <div className='wrapper w-full h-64 px-5 text-white flex items-center'>
         <div className='content-div max-w-screen-lg mx-auto flex items-center justify-between'>
             <h1 className="title text-5xl font-medium">{data.title}</h1>
             <div className="details w-1/3 flex flex-col gap-5">

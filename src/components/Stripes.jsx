@@ -25,7 +25,7 @@ const Stripes = () => {
   ];
 
   return (
-    <div className="w-full h-[20vh] bg-zinc-900 flex items-center">
+    <div className="w-full h-[20vh] bg-zinc-900 flex items-center mb-12">
       {data.map((elem, index) => (
         <Stripe key={index} val={elem} />
       ))}

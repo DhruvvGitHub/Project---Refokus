@@ -14,7 +14,7 @@ const Products = () => {
     ]
 
   return (
-    <div>
+    <div className="mb-28">
       {products.map((elem, index) => {
         return < Product key={index} data={elem} />
       })}
